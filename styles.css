@@ -2,17 +2,38 @@ body {
     color: rgb(1, 121, 81);
     background-color: rgba(245, 208, 45, 0.664);
 }
-
+  
+#sticky {
+    position: fixed;
+    top: 0;
+    
+}
 .heronav {
     display: flex;
-    justify-content: space-evenly;
+    justify-content: center;
+    flex-direction: row;
 }
 .heroref {
     border: 10px black groove;
+    background-color: rgb(231, 183, 120);
+    font-family: "Audiowide";
+    padding: 15px;
+    border-radius: 30%;
 }
 .herofoot {
     border: 5px rgb(158, 11, 11);
     border-style: dashed;
     display: inline-block;
-    
+    padding: 30px;
+    border-radius: 50%;
+}
+.hero {
+    font-family: "Audiowide"
+}
+.heromeg {
+    font-family: "Monoton";
+}
+.heroprosjekt {
+    display: flex;
+    flex-direction: column;
 }

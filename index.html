@@ -8,33 +8,42 @@
     <meta name="viewport" content="width=device-width" />
     <link rel="stylesheet" href="styles.css" />
     <script type="module" src="script.js"></script>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Monoton">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Audiowide&effect=neon|outline|emboss|shadow-multiple|fire">
   </head>
 
   <!-- Body er for det som skal viser på nettsiden -->
   <body>
     <header>
+      </div>
       <nav class="heronav">
-        <div class="heroref"><a href="">Heim</a></div>
-        <div class="heroref"><a href="hero">Om meg</a></div>
-        <div class="heroref"><a href="">Prosjekter</a></div>
+        <div id="sticky" >
+          <a class="heroref" href="#start" >Heim</a>
+          <a class="font-effect-fire" class="heroref" href="#meg">Om meg</a>
+          <a class="heroref" href="#prosjekt">Prosjekter</a>
+        </div>
       </nav>
     </header>
     <main>
-      <section>
-        <h1>Velkommen? til min side</h1>
+      <section id="start" class="hero">
+        <h1 class="font-effect-neon" >Velkommen? til min side</h1>
+        <p class="font-effect-shadow-multiple">På denne nettsiden kan du bli misinformert om meg og alle mine magiske prosjekt som eg enda ikkje har laget :)</p>
       </section>
-      <section>
-        <h2 class="hero">Om meg</h2>
+      <section id="meg" class="heromeg">
+        <h2 class="font-effect-outline"> Om meg</h2>
         <p>
           Hei! mitt navn er "Joakim", mange beskriver meg som ein person  og her har formen til eit menneskje. Visuel design er min lidenskap og nettdesign mitt talent. 
         </p>
       </section>
-      <section>
+      <section id="prosjekt" class="heroprosjekt">
         <h2>Prosjekter</h2>
+        <img src="last ned.png" alt="" width="20%">
+        <img src="last ned.png" alt="" width="20%">
+        <img src="last ned.png" alt="" width="20%">
       </section>
     </main>
     <footer>
-      <h3 class="herofoot">Laget av Joakim :)</h3>
+      <h3 class="herofoot">Laget av Joakim :) <a href="https://github.com/Joakimglodedata"> Min Github</a></h3>
     </footer>
   </body>
 </html>
