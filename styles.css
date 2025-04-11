@@ -40,8 +40,16 @@ header {
 /*Body*/
 
 .hero {
-    font-family: "Audiowide"
+    font-family: "Audiowide";
 }
+
+.heroinnhold {
+    display:flex;
+    justify-content: center;
+    padding-right: 20%;
+    padding-left: 20%;
+}
+
 .heromeg {
     font-family: "Monoton";
 }
