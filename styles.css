@@ -1,10 +1,23 @@
+/*Globalt*/
 section {
     min-height: 25vh;
 }
+
+img {
+    width: 20%;
+}
+
+h1, h2 {
+    text-align: center;
+}
+
 body {
     color: rgb(1, 121, 81);
     background-image: linear-gradient(rgb(245, 208, 45), rgba(245, 45, 218));
 }
+
+/*Header*/
+
 header {
     position: sticky;
     top: 0;
@@ -16,20 +29,16 @@ header {
     flex-direction: row;
     align-items: center;
 }
-.heroref {
+.navref {
     border: 10px black groove;
     background-color: rgb(231, 183, 120);
     font-family: "Audiowide";
     padding: 15px;
     border-radius: 30%;
 }
-.herofoot {
-    border: 5px rgb(158, 11, 11);
-    border-style: dashed;
-    display: inline-block;
-    padding: 30px;
-    border-radius: 50%;
-}
+
+/*Body*/
+
 .hero {
     font-family: "Audiowide"
 }
@@ -41,8 +50,9 @@ header {
     flex-direction: column;
 }
 
-img {
-    width: 20%;
+.prosjektprosjekt {
+    border: 10px double rgb(24, 221, 17);
+    
 }
 
 .resizeimg {
@@ -58,9 +68,12 @@ img {
     width: 20%;
 }
 
-h1, h2 {
-    text-align: center;
+
+/*Footer*/
+.foottekst {
+    border: 5px rgb(158, 11, 11);
+    border-style: dashed;
+    display: inline-block;
+    padding: 30px;
+    border-radius: 50%;
 }
-
-
-
